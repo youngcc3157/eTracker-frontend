@@ -23,11 +23,14 @@
 
 .tab-list {
   border-bottom: 1px solid #ccc;
-  padding-left: 0;
+  padding-left: 5;
+  float: left;
+  width: 100%;
 }
 
 .tab-list-item {
   display: inline-block;
+  float: left;
   list-style: none;
   margin-bottom: -1px;
   padding: 0.5rem 0.75rem;
