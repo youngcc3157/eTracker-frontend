@@ -10,11 +10,11 @@ require('./App.css');
 function App() {
   return (
     <div className="App">
-    <Router>
+    {/*<Router>
       <CustomLayout>
         <BaseRouter />
       </CustomLayout>
-    </Router>
+    </Router>*/}
 
     <h1> eTracker </h1>
       <Tabs>
