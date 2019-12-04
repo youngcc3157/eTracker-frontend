@@ -8,6 +8,7 @@ import 'antd/dist/antd.css';
 import EmailsTable from './EmailsTable';
 import CustomLayout from './containers/Layout';
 import Tabs from './Tabs';
+import Extend from './extend';
 require('./App.css');
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
     <h1> eTracker </h1>
       <Tabs>
         <div label="Emails">
-          Emails (Todo: Implement table)
+          All Emails
           <div id="emailTable">
             <EmailsTable/>
           </div>
@@ -31,6 +32,9 @@ function App() {
         <div label="Applied">
           Applied Information and Content
           Applied Jobs Etc.
+          <div id="AppliedDisplay">
+            <Extend/>
+          </div>
         </div>
         <div label="Interviews">
           These are the interviews you have...
