@@ -14,7 +14,7 @@ class EmailsTable extends Component {
       <ReactTable data = { data }
         columns={ columns }
         // SubComponent={ subComponent }
-        defaultPageSize = {5}
+        defaultPageSize = {10}
         pageSizeOptions = {[5, 10, 15]} />
     );
   }

@@ -8,7 +8,7 @@ import 'antd/dist/antd.css';
 import EmailsTable from './EmailsTable';
 import CustomLayout from './containers/Layout';
 import Tabs from './Tabs';
-import Extend from './extend';
+import AppliedTable from './AppliedTable';
 require('./App.css');
 
 function App() {
@@ -33,7 +33,7 @@ function App() {
           Applied Information and Content
           Applied Jobs Etc.
           <div id="AppliedDisplay">
-            <Extend/>
+            <AppliedTable/>
           </div>
         </div>
         <div label="Interviews">

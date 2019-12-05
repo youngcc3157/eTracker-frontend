@@ -39,13 +39,12 @@ export default function ControlledExpansionPanels() {
         >
           <Typography className={classes.heading}>Facebook</Typography>
           <Typography className={classes.secondaryHeading}>
-            2 Updates
+            Applied on October 2, 2019
           </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-            Update 1 is here
-            Update 2 is listed here also
+            More Information
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -57,7 +56,7 @@ export default function ControlledExpansionPanels() {
         >
           <Typography className={classes.heading}>Amazon</Typography>
           <Typography className={classes.secondaryHeading}>
-            1 Update
+            Applied on October 11, 2019
           </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
@@ -74,7 +73,7 @@ export default function ControlledExpansionPanels() {
         >
           <Typography className={classes.heading}>Microsoft</Typography>
           <Typography className={classes.secondaryHeading}>
-            No updates yet!
+            Applied on November 3, 2019
           </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
@@ -91,7 +90,7 @@ export default function ControlledExpansionPanels() {
         >
           <Typography className={classes.heading}>Google</Typography>
           <Typography className={classes.secondaryHeading}>
-            No updates yet!
+            Applied on November 12, 2019
           </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
