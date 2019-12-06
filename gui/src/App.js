@@ -9,6 +9,7 @@ import EmailsTable from './EmailsTable';
 import CustomLayout from './containers/Layout';
 import Tabs from './Tabs';
 import AppliedTable from './AppliedTable';
+import logo from './logo.png';
 require('./App.css');
 
 function App() {
@@ -21,7 +22,9 @@ function App() {
       </CustomLayout>
     </Router>*/}
 
-    <h1> eTracker </h1>
+    <div id="logoHeader"><img id="logo" src={logo} alt="eTracker" height="45" width="150"/></div>
+
+    <div id="tabsView">
       <Tabs>
         <div label="Emails">
           All Emails
@@ -30,23 +33,22 @@ function App() {
           </div>
         </div>
         <div label="Applied">
-          Applied Information and Content
-          Applied Jobs Etc.
+          Jobs Applied
           <div id="AppliedDisplay">
             <AppliedTable/>
           </div>
         </div>
         <div label="Interviews">
-          These are the interviews you have...
-          Lorem ipsum...
+          Scheduled Interviews
         </div>
         <div label="On-Site">
-
+          On-Site Interviews
         </div>
         <div label="Offers">
 
         </div>
       </Tabs>
+      </div>
     </div>
   );
 }

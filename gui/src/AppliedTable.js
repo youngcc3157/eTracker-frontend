@@ -37,7 +37,7 @@ export default function ControlledExpansionPanels() {
           aria-controls="panel1bh-content"
           id="panel1bh-header"
         >
-          <Typography className={classes.heading}>Facebook</Typography>
+          <Typography className={classes.heading}>Company 1</Typography>
           <Typography className={classes.secondaryHeading}>
             Applied on October 2, 2019
           </Typography>
@@ -54,14 +54,14 @@ export default function ControlledExpansionPanels() {
           aria-controls="panel2bh-content"
           id="panel2bh-header"
         >
-          <Typography className={classes.heading}>Amazon</Typography>
+          <Typography className={classes.heading}>Company 2</Typography>
           <Typography className={classes.secondaryHeading}>
             Applied on October 11, 2019
           </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-            Update 1 is here
+            More Information
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -71,7 +71,7 @@ export default function ControlledExpansionPanels() {
           aria-controls="panel3bh-content"
           id="panel3bh-header"
         >
-          <Typography className={classes.heading}>Microsoft</Typography>
+          <Typography className={classes.heading}>Company 3</Typography>
           <Typography className={classes.secondaryHeading}>
             Applied on November 3, 2019
           </Typography>
@@ -88,7 +88,7 @@ export default function ControlledExpansionPanels() {
           aria-controls="panel4bh-content"
           id="panel4bh-header"
         >
-          <Typography className={classes.heading}>Google</Typography>
+          <Typography className={classes.heading}>Company 4</Typography>
           <Typography className={classes.secondaryHeading}>
             Applied on November 12, 2019
           </Typography>

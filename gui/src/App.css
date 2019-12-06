@@ -42,6 +42,18 @@
   border-width: 1px 1px 0 1px;
 }
 
+#logoHeader{
+  margin: 5px 55px 20px 20px;
+  padding-bottom: 5px;
+}
+
+#logo {
+  display: flex;
+  float: right;
+}
+
+
+
 #emailTable {
   margin: 50px;
 }
